@@ -1,8 +1,14 @@
 import React from 'react'
+import ResultForm from '../components/ResultForm'
+import ResultTable from '../components/ResultTable'
 
 const Results = () => {
   return (
-    <div>Results</div>
+    <section className="container">
+      <h1>Results</h1>
+      <ResultForm/>
+      <ResultTable/>
+    </section>
   )
 }
 

@@ -1,8 +1,15 @@
 import React from 'react'
+import './Students.css'
+import StudentForm from '../components/StudentForm'
+import StudentTable from '../components/StudentTable'
 
 const Students = () => {
   return (
-    <div>Students</div>
+    <section className="container">
+        <h1>Students</h1>
+        <StudentForm/>
+        <StudentTable/>
+    </section>
   )
 }
 
