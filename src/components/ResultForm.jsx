@@ -17,7 +17,7 @@ const ResultForm = () => {
             </select>
         </div>
         <div className="form-row">
-            <label htmlFor="item">Date of Birth</label>
+            <label htmlFor="item">Score</label>
             <select id="grades">
                 <option value="default3">-- Select Option --</option>
                 <option value="a">A</option>
