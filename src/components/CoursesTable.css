@@ -37,6 +37,13 @@ th {
     text-align: center;
 }
 
-tbody {
+td {
     border-bottom: 1px solid #C9D0DB;
+}
+
+.no-courses{
+    text-align: center;
+    font-style: italic;
+    color: #5C6B8A;
+  
 }

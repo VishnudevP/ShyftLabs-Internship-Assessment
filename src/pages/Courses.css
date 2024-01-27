@@ -1,0 +1,16 @@
+.courses-delete-all{
+    background-color: #f46e6e;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    top: 340px;
+    left: 560px;
+    position: absolute;
+}
+
+.courses-delete-all:hover {
+    background-color: red;
+  }

@@ -7,7 +7,7 @@
     margin-left: 62px;
 }
 
-.btn{
+.course-btn{
     display: flex;
     width: 297px;
     height: 42px;
@@ -20,8 +20,8 @@
     border-radius: 8px;
     background: #2C3F66;
     border: none;
-    margin-top: 20px;
-    margin-left: 38px;
+    margin-left: 36px;
+    margin-top: 25px;
 }
 
 label{

@@ -21,13 +21,13 @@ const StudentForm = ( {onSubmit} ) => {
 
     if (!firstName || !familyName || !dob) {
       setNotification('Please fill in all fields')
-      return;
+      return
     }
 
-    const dobDate = new Date(dob);
+    const dobDate = new Date(dob)
     if (isNaN(dobDate.getTime())) {
       setNotification('Please enter a valid date of birth')
-      return;
+      return
     }
 
     const tenMin = new Date();
