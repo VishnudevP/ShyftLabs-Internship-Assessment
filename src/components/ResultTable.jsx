@@ -3,7 +3,7 @@ import './ResultTable.css'
 
 const ResultTable = () => {
   return (
-    <div class="result-table-wrapper">
+    <div className="result-table-wrapper">
         <table>
             <thead>
                 <tr className='d'>

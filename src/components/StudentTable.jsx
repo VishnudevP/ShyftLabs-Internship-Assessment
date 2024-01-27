@@ -1,9 +1,9 @@
 import React from 'react'
 import './StudentTable.css'
 
-const StudentTable = () => {
+const StudentTable = ( {students} ) => {
   return (
-    <div class="student-table-wrapper">
+    <div className="student-table-wrapper">
       <table>
         <thead>
             <tr className='d'>
@@ -13,18 +13,19 @@ const StudentTable = () => {
             </tr>
         </thead>
         <tbody>
-            <tr className='s'>
-            <td>Data 1</td>
-            <td>Data 2</td>
-            <td>Data 3</td>
-            </tr>
-        </tbody>
-        <tbody>
-            <tr className='s'>
-            <td>Data 1</td>
-            <td>Data 2</td>
-            <td>Data 3</td>
-            </tr>
+          {students.length === 0 ? (
+              <tr>
+                <td className='no-students' colSpan="3">No Students</td>
+              </tr>
+            ) : (
+              students.map((student) => (
+                  <tr key={`${student.firstName}-${student.familyName}-${student.dob}`} className='s'>
+                  <td>{student.firstName}</td>
+                  <td>{student.familyName}</td>
+                  <td>{student.dob}</td>
+                  </tr>
+              ))
+           )}
         </tbody>
       </table>
     </div>

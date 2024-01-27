@@ -3,7 +3,7 @@ import './CoursesTable.css'
 
 const CoursesTable = () => {
   return (
-    <div class="contact-table-wrapper">
+    <div className="contact-table-wrapper">
         <table>
         <thead>
             <tr className='d'>
