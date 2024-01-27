@@ -1,3 +1,48 @@
 div{
     display: flex;
 }
+
+.subhead{
+    color: #5C6B8A;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 480;
+    line-height: normal;
+    position: absolute;
+    top: 80px;
+    left: 340px;
+
+}
+
+.box {
+    background-color: #F2F4FF;
+    border-radius: 8px;
+    padding: 20px 160px 20px 20px;
+    margin-top: 150px;
+    margin-left: -100px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 150px;
+    width: 300px;
+    margin-right: 150px;
+  }
+  
+  .box h2 {
+    color: #436AAF;
+    margin-top: 25px;
+    margin-left: 10px;
+  }
+  
+  .p2 {
+    color: #7B8CAD;
+    font-size: 24px;
+    margin-top: 40px;
+    margin-left: 120px;
+  }
+
+  .quote{
+    color: #7B8CAD;
+    font-size: 16px;
+    margin-top: 22px;
+    margin-left: 90px;
+  }
