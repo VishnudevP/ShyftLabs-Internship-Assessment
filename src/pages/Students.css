@@ -6,8 +6,9 @@
     border: none;
     outline: none;
     border-radius: 8px;
-    margin-top: 360px;
-    margin-left: 280px;
+    top: 560px;
+    left: 560px;
+    position: absolute;
 }
 
 .delete-all:hover {

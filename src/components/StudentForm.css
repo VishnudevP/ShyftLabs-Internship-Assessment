@@ -49,3 +49,27 @@ input{
     border: none;
     width: 300px;
 }
+
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px;
+    background-color: #436AAF;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close-btn {
+    background-color: white;
+    color: #5C6B8A;
+    border: none;
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
