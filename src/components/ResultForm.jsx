@@ -61,7 +61,7 @@ const ResultForm = ( { students, courses, onSubmit } ) => {
                 <select id="studentName" value={studentName} onChange={(e) => setStudentName(e.target.value)}>
                     <option value="default2">-- Select Option --</option>
                     {students && students.map((student) => (
-                        <option key={student.firstName + student.familyName} value={student.firstName + student.familyName}>
+                        <option key={student.firstName + ' ' + student.familyName} value={student.firstName + ' ' + student.familyName}>
                             {student.firstName} {student.familyName}
                         </option>
                     ))}
