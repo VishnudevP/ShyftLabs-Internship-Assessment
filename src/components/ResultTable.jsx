@@ -16,7 +16,7 @@ const ResultTable = ( {results} ) => {
             <tbody>
                 {results.length === 0 ? (
                     <tr className='s'>
-                        <td colSpan="3">No results available</td>
+                        <td className='no-results' colSpan="3">No results available</td>
                     </tr>
                 ) : (
                     results.map((result) => (

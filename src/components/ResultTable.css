@@ -39,3 +39,10 @@ th {
 tbody {
     border-bottom: 1px solid #C9D0DB;
 }
+
+.no-results{
+    text-align: center;
+    font-style: italic;
+    color: #5C6B8A;
+  
+}
